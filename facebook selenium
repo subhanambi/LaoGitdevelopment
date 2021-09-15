@@ -1,0 +1,30 @@
+package subha;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+
+public class FaceBook {
+
+	public static void main(String[] args) throws InterruptedException {
+		System.setProperty("webdriver.chrome.driver","E://automation//chrome//chromedriver_win32 (1)//chromedriver.exe");
+			WebDriver driver = new ChromeDriver();
+			driver.manage().window().maximize();
+			driver.get("https://touch.facebook.com/?_rdr");
+			WebElement user =driver.findElement(By.id("m_login_email"));
+			user.sendKeys("7299381379");
+			WebElement pass = driver.findElement(By.name("login"));
+			pass.sendKeys("9710160832");
+			WebElement login=driver.findElement(By.name("login"));
+			login.click();
+				
+
+			
+			
+	}
+
+	
+	
+}
