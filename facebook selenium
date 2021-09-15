@@ -16,7 +16,7 @@ public class FaceBook {
 			WebElement user =driver.findElement(By.id("m_login_email"));
 			user.sendKeys("7299381379");
 			WebElement pass = driver.findElement(By.name("login"));
-			pass.sendKeys("9710160832");
+			pass.sendKeys("9710160892");
 			WebElement login=driver.findElement(By.name("login"));
 			login.click();
 				
