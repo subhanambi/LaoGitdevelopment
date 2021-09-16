@@ -19,6 +19,7 @@ public class FaceBook {
 			pass.sendKeys("9710160892");
 			WebElement login=driver.findElement(By.name("login"));
 			login.click();
+			driver.quit();
 				
 
 			
